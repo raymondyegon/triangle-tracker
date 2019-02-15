@@ -12,5 +12,7 @@ function tracker() {
     if ( x == y && y==z ) {
        alert ("Equilateral")
     }
-    if (x == y && )
+    if (x == y && y != z) {
+       alert ("Isosceles")
+    }
 }
