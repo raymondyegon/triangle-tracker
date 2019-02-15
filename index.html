@@ -12,11 +12,16 @@
       <header>
         TRIANGLE TRACKER
       </header>
-      <p>Input values and find out what type of triangle is formed:</p><br>
-      <p>First value:<input type="number" value="" id="num1" min="0"></p>
-      <p>Second value:<input type="number" value="" id="num2" min="0"></p>
-      <p>Third value:<input type="number" value="" id="num3" min="0"></p>
-      <button type="button" name="submit" id="button" onclick="tracker()">Find Out!</button>
+      <form class="input" method="get">
+        <p>Input values and find out what type of triangle is formed:</p><br>
+        <p>First value:<input type="number" value="interger" id="num1" min="1"></p>
+        <p>Second value:<input type="number" value="interger" id="num2" min="1"></p>
+        <p>Third value:<input type="number" value="interger" id="num3" min="1"></p>
+        <button type="button" name="submit" id="button" onclick="tracker()">Find Out!</button>
+      </form><br>
+      <div id="result">
+
+      </div>
     </div>
   </body>
 </html>
