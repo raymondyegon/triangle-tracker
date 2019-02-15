@@ -1,25 +1,21 @@
 function tracker() {
-  var x;
-    x = document.getElementById("num1").value;
-  var y ;
-    y = document.getElementById("num2").value;
-  var z;
-    z = document.getElementById("num3").value;
-  var array = [x, y, z];
-    if (x <= 0 || y<=0 || z<=0) {
-      output = "Not valid" ;
-    }
-    if ( x + y >= z || y + z >= x || x + z >= y ) {
+  var a;
+    a = document.getElementById("num1").value;
+  var b ;
+    b = document.getElementById("num2").value;
+  var c
+    c = document.getElementById("num3").value;
+  var array = [a, b, c];
+    if (a <= 0 || b<=0 || c<=0) {
+      output = "Not valid"
+    } else if ( ((a+ b) <=c) || ((b + c) <= a) || ((a + c) <= b) ) {
        output = "Cannot form a triangle";
-    }
-     if ( x == y && y==z && x==z ) {
+    } else if ( a == b && b==c && a==c ) {
        output = "Equilateral Triangle";
-    }
-     if ((x == y) && (y!=z) ) {
+    } else if ((a == b) || (b == c) || ( a == c )) {
        output = "Isosceles Triangle";
-    if (x!=y && y!=z && x!=z) {
-       output = "Scalene Triangle"
-       }
+    } else if ( a!= b && b !=c && a != c) {
+       output = "Scalene Triangle";
     }
   document.querySelector("#result").innerHTML = output;
 }
