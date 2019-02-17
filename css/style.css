@@ -2,6 +2,7 @@
   body {
     background-color: #0000FF;
     color:  #330000;
+    background-color: white;
   }
 }
 body{
@@ -27,6 +28,8 @@ span {
   margin-top: 2cm;
   padding-top: 1cm;
   padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
   background-size: cover;
   background-color: lightblue;
   color: #330000;
