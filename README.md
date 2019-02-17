@@ -1,8 +1,8 @@
 # TRIANGLE TRACKER
-#### {Brief description of application}, {Date of current version}
-#### By **{Raymond Yegon}**
+#### This web app identifies if three numbers can form a triangle , 2019
+#### By **Raymond Yegon**
 ## Description
-{This is a simple web app the a user is given an option of inputing three digits and then the app determines whether a triangle can be formed.}
+This is a simple web app the a user is given an option of inputing three digits and then the app determines whether a triangle can be formed.
 ## Requirements
 * An internet connection
 * A browser
@@ -16,7 +16,7 @@ HTML and CSS is used for the user interface while Javascript is used in the back
 ## Support and contact details
 If you have an issues or bugs that haven't been described above please feel free to fork the project and send me a pull request.
 ### License
-*{MIT License
+**MIT License
 
 Copyright (c) [2019] [Raymond Yegon]
 
@@ -36,5 +36,5 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.}*
-Copyright (c) {2019} **{Raymond Yegon}**
+SOFTWARE.**
+Copyright (c) {2019} **Raymond Yegon**
