@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" initial-scale="1">
     <link rel="stylesheet" href="css/style.css" media="all">
     <script type="text/javascript" src="js/script.js"></script>
+    <!--CSS and javascript files is linked from here.-->
     <title>TRIANGLE TRACKER</title>
   </head>
   <body>
@@ -14,11 +15,13 @@
         TRIANGLE TRACKER
       </header>
       <form class="input" method="get">
+        <!--A user inputs the value and a request is sent-->
         <p>Input values and find out what type of triangle is formed:</p><br>
         <p>First value:<input type="number" value="interger" id="num1" min="1"></p>
         <p>Second value:<input type="number" value="interger" id="num2" min="1"></p>
         <p>Third value:<input type="number" value="interger" id="num3" min="1"></p>
         <button type="button" name="submit" id="button" onclick="tracker()">Find Out!</button>
+        <!--When the button is clicked the function (Tracker) is executed-->
       </form><br>
       <div id="result">
           <!--This is where the output is displayed.-->
