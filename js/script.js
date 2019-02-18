@@ -15,4 +15,4 @@ function tracker() {
        output = "Scalene Triangle";
     }
   document.querySelector("#result").innerHTML = output;
-//The function extracts the values from the html page and then  is converted directly to numbers. Then the first arguments is to check whether the value is more than zero or whther the sum of two values is greater then the third one and if yes the triangle type is determined through the other arguments.//
+}
